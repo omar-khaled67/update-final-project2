@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import axios from "axios";
-import Menu from "../components/Menu"; // لو عندك
-
+import Menu from "../components/Menu"; 
 function Admin() {
   const { currentUser } = useSelector((state) => state.user);
 
