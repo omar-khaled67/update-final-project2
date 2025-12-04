@@ -7,7 +7,7 @@ const authRoute = require("./routes/auth");
 
 
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: "https://update-final-project2-z857.vercel.app", 
   credentials: true
 }));
 app.use(express.json());
