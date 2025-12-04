@@ -24,7 +24,7 @@ const Login = () => {
     dispatch(loginStart());
 
     try {
-      const res = await fetch("https://update-final-project2-z857.vercel.app/api/auth/login", {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
